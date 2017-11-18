@@ -84,7 +84,7 @@ header {
     text-align: center;
     color: #ECF0F1;
     background: #334D5C;
-    height: 46em;
+    height: 100vh;
     position: relative;
     /*background: url("../img/reserva.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
