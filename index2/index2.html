@@ -228,12 +228,14 @@
                         </div>
                         <br>
                         <div class="captcha">
-                            <input id="myCaptcha" type="checkbox" value="human"><label>No soy un robot</label><br>
+                            2 + 2   =<br>
+                            <input id="myCaptcha" type="text" value="" onkeyup="onChangeCaptchaInput()">
+                            <p>resuelve la suma para demostrar que eres humano</p>
                         </div>
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button id="button-submit" type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button id="button-submit" type="submit" class="btn btn-success btn-lg" disabled>Enviar</button>
                             </div>
                         </div>
                     </form>

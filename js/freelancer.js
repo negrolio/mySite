@@ -36,6 +36,8 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('#myCaptcha').change(()=>{
-    document.getElementById('button-submit').disabled = !$('#myCaptcha').is(':checked')
-})
+// Function passes to the input of the form
+// Only when the input have a 4 as a value the button of the form is available
+function onChangeCaptchaInput () {
+    document.getElementById('button-submit').disabled = Number($('#myCaptcha').val()) !== 4
+}
