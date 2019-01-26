@@ -639,3 +639,9 @@ animation-direction: alternate;*/
         align-items: center;
     }
 }
+
+@media (max-height:500px){
+    .icons-container {
+        height: 80vh;
+    }
+}
