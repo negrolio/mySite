@@ -623,3 +623,19 @@ animation-direction: alternate;*/
     flex-direction: column;
     justify-content: space-around;
 }
+
+@media (max-width:1200px) {
+    .icons-container {
+        height: 60vh;
+    }
+    .icons-container p {
+        margin-left: 0px;
+        display: inherit;
+        text-align: center;
+    }
+    .icons-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
