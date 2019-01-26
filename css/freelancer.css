@@ -605,18 +605,21 @@ animation-direction: alternate;*/
     padding-bottom: 60px;
 }
 
-#myCaptcha {
-    width: 20px;
-    margin-left: 10px;
+.icons-container img{
+    width: 65px;
+    height: 65px;
 }
 
-.captcha {
-    display: flex;
-    align-items: center;
-    margin: 40px 0;
-}
-.captcha p {
-    font-size: 12px;
+.icons-container p {
     margin-left: 10px;
-    margin-bottom: 0
+    display: inline;
+}
+
+.icons-container {
+    width: 35%;
+    margin: auto;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
